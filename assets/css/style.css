@@ -442,7 +442,7 @@ h6 {
 }
 #hero:before {
   content: '';
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(6, 12, 34, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
