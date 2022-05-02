@@ -643,6 +643,10 @@ h6 {
   margin-bottom: 20px;
   color: #fff;
 }
+#bref {
+  align-items: center;
+  color: red;
+}
 
 /*--------------------------------------------------------------
 # Speakers Section
@@ -650,11 +654,17 @@ h6 {
 #speakers {
   padding: 60px 0 30px 0;
 }
+.ans {
+  border: 1px solid #e0e5fa;
+  background: #f6f7fd;
+}
 #speakers .speaker {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+  border: 1px solid #e0e5fa;
 }
+
 #speakers .speaker .details {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
@@ -938,13 +948,18 @@ h6 {
   padding: 0 20px;
   margin-bottom: 20px;
   color: #060c22;
-  font-style: italic;
+
   font-size: 15px;
 }
 
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
 #gallery {
   padding: 60px;
   overflow: hidden;
